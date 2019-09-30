@@ -9,3 +9,9 @@ class Pet():
         self.breed = breed
         self.species = species
         self.owner = owner
+
+    def identify_name(self):
+        return self.name
+
+    def add_owner(self, name):
+        self.owner = name

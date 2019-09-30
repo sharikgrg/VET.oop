@@ -21,3 +21,11 @@ class Appointment():
 
     def list_appointments(self, pet):
         self.list_appointments.append(pet)
+
+    def get_vet(self):
+        return self.vet
+
+    def get_pet(self):
+        return self.pet
+    # def get_vet(self):
+
