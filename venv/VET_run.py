@@ -1,11 +1,11 @@
 from appointment_class import *
 from pet_class import *
 from human_class import *
+
 # create 3 pets
 pet1 = Pet('Mr.Mitten', 'Persian', 'Cat')
 pet2 = Pet('Cookie', 'Husky', 'Dog')
 pet3 = Pet('Mike', 'Labrador', 'Dog')
-
 
 
 # create 3 clients
@@ -38,10 +38,13 @@ app1.adding_vet(vet1)
 app2.adding_vet(vet2)
 app3.adding_vet(vet2)
 
-for appointment in app:
-    print('(Disease: ', appointment.disease, '(PetName: ', appointment.get_pet().identify_name(), '(Appointment Date: ', appointment.date, '(VET: ',  appointment.get_vet().identify_name())
 # As a user i can list all appointments /
-# as a user i can add a pet to appointment /
+print('/////////////////////////APPOINTMENT LIST///////////////////')
+for appointment in app:
+    print('(Disease: ', appointment.disease, '(PetName: ', appointment.get_pet().identify_name(), '(Appointment Date: ', appointment.date, '(VET: ',  appointment.get_vet().identify_name(), '(Price: £', appointment.price)
+
+
 # as a user i can get pet and owner details for one pet/
+print('///////////////////////PET OWNER DETAIL////////////////////////')
 pet1.add_owner(client1)
-print(pet1.owner.identify_name())
+print(f" Owner: {pet1.owner.identify_name()}, Email: {client1.email}, Phone: {client1.phone}, Pet: {pet1.name}, Breed : {pet1.breed}, Species: {pet1.species}")
