@@ -15,6 +15,7 @@ class Client(Human):
 
 
 class Veterinarian(Human):
-    def __init__(self, specialisation, name, phone, email):
+    def __init__(self,  name, phone, email, specialisation):
         super().__init__(name, phone, email)
         self.specialisation = specialisation
+
