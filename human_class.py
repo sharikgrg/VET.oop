@@ -14,7 +14,7 @@ class Client(Human):
         self.pet = pet
 
     def identify_name(self):
-        return self.name
+        return self.name + '(Email: ' + self.email + ' (Phone: '+ self.phone
 
 
 

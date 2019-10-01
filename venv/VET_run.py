@@ -2,24 +2,24 @@ from appointment_class import *
 from pet_class import *
 from human_class import *
 
-# create 3 pets
+# creating 3 pets
 pet1 = Pet('Mr.Mitten', 'Persian', 'Cat')
 pet2 = Pet('Cookie', 'Husky', 'Dog')
 pet3 = Pet('Mike', 'Labrador', 'Dog')
 
 
-# create 3 clients
+# creating 3 clients
 client1 = Client('Card', 'Potts', '75119346471', 'jpotts@hotmail.com')
 client2 = Client('Card', 'Jones', '75549446471', 'jjones@hotmail.com')
 client3 = Client('Card', 'Mars', '75159746471', 'bmars@hotmail.com')
 
 
-# create 2 veterinarian
+# creating 2 veterinarian
 vet1 = Veterinarian( 'Rick', '7983838708', 'rick@barrowhill.com', 'Cat')
 vet2 = Veterinarian( 'Nisa', '7983838708', 'nisa@barrowhill.com', 'Dog')
 
 
-#create 3 appointments
+#creating 3 appointments
 app1 = Appointment('bad stomach', '19-01-2019', '165')
 app2 = Appointment('broken leg', '19-01-2019', '165')
 app3 = Appointment('tail', '19-01-2019', '165')
@@ -47,4 +47,4 @@ for appointment in app:
 # as a user i can get pet and owner details for one pet/
 print('///////////////////////PET OWNER DETAIL////////////////////////')
 pet1.add_owner(client1)
-print(f" Owner: {pet1.owner.identify_name()}, Email: {client1.email}, Phone: {client1.phone}, Pet: {pet1.name}, Breed : {pet1.breed}, Species: {pet1.species}")
+print(f" Owner: {pet1.owner.identify_name()}, (Pet: {pet1.name}, (Breed : {pet1.breed}, (Species: {pet1.species}")

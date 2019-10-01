@@ -3,7 +3,6 @@
   <component name="ChangeListManager">
     <list default="true" id="24af6989-483d-4aa4-869d-1881dc7a7559" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/human_class.py" beforeDir="false" afterPath="$PROJECT_DIR$/human_class.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/venv/VET_run.py" beforeDir="false" afterPath="$PROJECT_DIR$/venv/VET_run.py" afterDir="false" />
     </list>
@@ -27,7 +26,7 @@
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="PropertiesComponent">
     <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../gazorpazorp-space-station" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -109,7 +108,9 @@
       <map>
         <entry key="MAIN">
           <value>
-            <State />
+            <State>
+              <option name="COLUMN_ORDER" />
+            </State>
           </value>
         </entry>
       </map>
